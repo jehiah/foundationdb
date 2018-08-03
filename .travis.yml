@@ -1,0 +1,9 @@
+os: osx
+before_install:
+  - brew update
+  - brew install boost
+  - brew install mono
+script:
+  - make
+notifications:
+  email: false
